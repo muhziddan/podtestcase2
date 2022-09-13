@@ -6,12 +6,16 @@
 //
 
 import UIKit
+import CLTypingLabel
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var testLabel: CLTypingLabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        testLabel.text = "Some text"
     }
 
 
